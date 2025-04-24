@@ -6,6 +6,7 @@
 
 }
 
+
 .header-section {
     background-color: black;
     position: sticky;
@@ -66,7 +67,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 
 }
 
@@ -75,22 +79,7 @@
 
 }
 
-.flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-
-}
-
-.title {
-    /* margin-top: 35vh; */
-    position: absolute;
-    bottom: 50%;
-}
-
-.title span{
+.title p{
     color: white;
     font-size: 80px;
 }
